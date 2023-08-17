@@ -1,0 +1,7 @@
+#!/bin/bash
+
+CMD="$1" ; shift
+ARG2="$1" ; shift
+ARG1="$1" ; shift
+
+eval "$CMD" "$ARG1" "$ARG2" "$@"
